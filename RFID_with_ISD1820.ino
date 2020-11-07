@@ -2,10 +2,6 @@
 
 /* Simple RFID Arduino Sketch(RC522)
 
-Created by Yvan / https://Brainy-Bits.com
-This code is in the public domain...
-n
-
 The MFRC522 Library used, was created by LJOS here: https://github.com/ljos/MFRC522 
 The FastLED Library used, was created by focalintent here: https://github.com/FastLED/FastLED/releases
 
@@ -116,7 +112,7 @@ delay(500);
 
 }
 else {
-Serial.println("TAG NOT ACCEPTED...... ");
+Serial.println("TAG NOT ACCEPTED. ");
 Serial.println();
 
 tone(buzzer, 1000); // Send 1KHz sound signal...
