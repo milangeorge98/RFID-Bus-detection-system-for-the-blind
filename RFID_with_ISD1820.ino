@@ -1,4 +1,6 @@
   /* Start of Code */
+/*Source and Credits: by Yvan / https://Brainy-Bits.com
+*/
 
 /* Simple RFID Arduino Sketch(RC522)
 
